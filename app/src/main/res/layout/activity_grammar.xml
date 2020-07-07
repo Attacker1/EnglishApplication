@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lessons.GrammarActivity">
+
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:padding="3dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAnswerLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c8e6ca"
+        android:padding="3dp"
+        android:text="Переведите предложение"
+        android:textColor="@color/gray_color_text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuestion" />
+
+    <TextView
+        android:id="@+id/textViewOpinion0"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:padding="32dp"
+        android:text="TextView"
+        android:onClick="onClickAnswer"
+        android:textColor="@color/gray_color_text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewOpinion2"
+        app:layout_constraintEnd_toStartOf="@+id/textViewOpinion1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAnswerLine" />
+
+    <TextView
+        android:id="@+id/textViewOpinion1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:padding="32dp"
+        android:onClick="onClickAnswer"
+        android:text="TextView"
+        android:textColor="@color/gray_color_text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewOpinion3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewOpinion0"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAnswerLine" />
+
+    <TextView
+        android:id="@+id/textViewOpinion2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:onClick="onClickAnswer"
+        android:padding="32dp"
+        android:text="TextView"
+        android:textColor="@color/gray_color_text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewOpinion4"
+        app:layout_constraintEnd_toStartOf="@+id/textViewOpinion3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOpinion0" />
+
+    <TextView
+        android:id="@+id/textViewOpinion3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:padding="32dp"
+        android:onClick="onClickAnswer"
+        android:text="TextView"
+        android:textColor="@color/gray_color_text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewOpinion5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewOpinion2"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOpinion1" />
+
+    <TextView
+        android:id="@+id/textViewOpinion4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:onClick="onClickAnswer"
+        android:padding="32dp"
+        android:text="TextView"
+        android:textColor="@color/gray_color_text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewOpinion6"
+        app:layout_constraintEnd_toStartOf="@+id/textViewOpinion5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOpinion2" />
+
+    <TextView
+        android:id="@+id/textViewOpinion5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="onClickAnswer"
+        android:gravity="center"
+        android:padding="32dp"
+        android:text="TextView"
+        android:textColor="@color/gray_color_text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewOpinion7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewOpinion4"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOpinion3" />
+
+    <TextView
+        android:id="@+id/textViewOpinion6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="onClickAnswer"
+        android:gravity="center"
+        android:padding="32dp"
+        android:text="TextView"
+        android:textColor="@color/gray_color_text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewOpinion7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOpinion4" />
+
+    <TextView
+        android:id="@+id/textViewOpinion7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:padding="32dp"
+        android:onClick="onClickAnswer"
+        android:text="TextView"
+        android:textColor="@color/gray_color_text"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewOpinion6"
+        app:layout_constraintTop_toBottomOf="@+id/textViewOpinion5" />
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewAnswerLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

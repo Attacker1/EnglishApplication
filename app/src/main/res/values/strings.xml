@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Diplom</string>
+    <string name="dialog_first">Hanna: Hello! How are you? John: Hi! I`m fine, thanks! What about you? Hanna: I feel so bad, because I have much homework and headache. John: It`s no problem! I can help you with the homework, and I got some pills for that. Hanna: Thank you very much! I need pills! Do you have it with you? John: Yes! How many pills do you need? Hanna: Two, please.</string>
+    <string-array name="options_of_first_question">
+        <item>Выберите вариант</item>
+        <item>good</item>
+        <item>fine</item>
+        <item>bad</item>
+    </string-array>
+    <string-array name="options_of_third_question">
+        <item>Выберите вариант</item>
+        <item>She has so mane jobs</item>
+        <item>She has much homework and headache</item>
+        <item>Her cat is dead</item>
+    </string-array>
+    <string-array name="options_of_fourth_question">
+        <item>Выберите вариант</item>
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string-array name="options_of_five_question">
+        <item>Выберите вариант</item>
+        <item>one</item>
+        <item>two</item>
+        <item>five</item>
+    </string-array>
+</resources>
